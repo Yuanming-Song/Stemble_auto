@@ -8,7 +8,7 @@ pyautogui.FAILSAFE = True
 
 def type_pattern(num_passes: int, delay: float = 0.1):
     """
-    Types the specified pattern for Safari on MacOS.
+    Types the specified pattern for browser automation.
     Each pass consists of:
     1. 48 'A' + '.' followed by ']'
     2. 48 'A' + ',' followed by ']'
@@ -18,7 +18,7 @@ def type_pattern(num_passes: int, delay: float = 0.1):
         delay: Delay between each keystroke in seconds
     """
     # Give user time to switch to the correct window
-    print("Starting in 5 seconds... Switch to your Safari window!")
+    print("Starting in 5 seconds... Switch to your browser window!")
     time.sleep(5)
     
     try:
@@ -47,8 +47,8 @@ def type_pattern(num_passes: int, delay: float = 0.1):
         print(f"\nAn error occurred: {str(e)}")
 
 if __name__ == "__main__":
-    print("Safari MacOS Keyboard Automation Tool")
-    print("------------------------------------")
+    print("Keyboard Automation Tool")
+    print("------------------------")
     print("NOTE: Move mouse to upper-left corner to stop the script")
     
     while True:

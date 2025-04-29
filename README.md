@@ -1,11 +1,6 @@
-# Stemble Keyboard Automation Tools
+# Stemble Keyboard Automation Tool
 
-This repository contains automation tools for keyboard input patterns in different browsers on MacOS. The tools can type sequences of "A" followed by "." or "," with specific patterns.
-
-## Available Scripts
-
-- `safari_mac_auto.py`: Automation script for Safari browser on MacOS
-- `chrome_mac_auto.py`: Automation script for Chrome browser on MacOS
+This tool automates keyboard input patterns for browsers on MacOS. It can type sequences of "A" followed by "." or "," with specific patterns.
 
 ## Setup
 
@@ -17,13 +12,9 @@ This repository contains automation tools for keyboard input patterns in differe
 
 ## Usage
 
-1. Run the script for your preferred browser:
+1. Run the script:
    ```bash
-   # For Safari
-   python3 safari_mac_auto.py
-   
-   # For Chrome
-   python3 chrome_mac_auto.py
+   python3 keyboard_auto.py
    ```
 
 2. When prompted:
